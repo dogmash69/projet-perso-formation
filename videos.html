@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take a deep breath</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="picdsk"><img src="wallpaper.png" alt="" height="100%" width="100%"></div>
+
+    <section class="video">
+        <video id="slider" autoplay loop muted>
+            <source src="../Iceland.mp4" type="video/mp4">
+        </video>
+        <ul class="navigation">
+            <li onclick="videoUrl('../Iceland.mp4')"><img src="snapiceland.png" id="thumb"></li>
+            <li onclick="videoUrl('../verdon.mp4')"><img src="snapverdon.png" id="thumb"></li>
+            <li onclick="videoUrl('../newzealand.mp4')"><img src="snapnz.png" id="thumb"></li>
+            <li onclick="videoUrl('../Volcano.mp4')"><img src="snapvolcan.png" id="thumb"></li>
+            <li onclick="videoUrl('../YosemitHD.mp4')"><img src="snapyose.png" id="thumb"></li>
+        </ul>
+    </section>
+    <div id="menu">
+        <ul id="menudsk">
+            <li> <a class="link" href="index.html"> HOME </a></li>
+            <li> <a class="link" href="videos.html">VIDEOS</a></li>
+            <li> <a class="link" href="visit.html">VISIT</a></li>
+            <li> <a class="link" href="partner.html">PARTNERSHIPS</a></li>
+            <li> <a class="link" href="contact.html">CONTACT</a></li>
+        </ul>
+        <ul id="menumob">
+            <li> <a class="link" href="index.html"> HOME </a></li>
+            <li> <a class="link" href="videos.html">VIDEOS</a></li>
+            <li> <a class="link" href="visit.html">VISIT</a></li>
+            <li> <a class="link" href="partner.html">PARTNERSHIPS</a></li>
+            <li> <a class="link" href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+@font-face {
+    font-family: wild;
+    src: url(PlayfairDisplayRegular-ywLOY.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: wild;
+    text-align: center;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   text-shadow: 3px 3px 3px black;
+   font-size: 5rem;
+   margin-top: 0;
+   margin-right: 3.5%;
+
+}
+
+
+#yose {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#logodsk {
+    position: absolute;
+    bottom: 20%;
+    right: 35%;
+}
+
+#logomob {
+    display: none;
+}
+
+#menudsk {
+    font-size: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0;
+    height: 1.1em;
+    width: 100%;
+    list-style: none;
+    position: fixed;
+    bottom: -1em;
+    margin-left: 0.1%;
+    margin-bottom: 1.6%;
+}
+
+#menumob {
+    display: none;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    #menudsk {
+        display: none;
+    }
+
+    #menumob {
+        font-size: 20px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;    
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        margin-left: 5%;
+        height: 1.1em;
+        width: 90%;
+        list-style: none;
+        position: fixed;
+        bottom: 1.5em;
+        margin-bottom: 4%;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        text-shadow: 3px 3px 3px black;
+        font-size: 90px;
+        margin-top: 1%;
+        margin-left: 2%;
+     
+     }
+
+     #logodsk {
+        display: none;
+    }
+    
+    #logomob {
+        display: block;
+    }
+    
+}
