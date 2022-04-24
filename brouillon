@@ -1,0 +1,23 @@
+.container .bandeau .pop {
+    cursor: pointer;
+}
+
+
+.container .bandeau .pop img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     transition: .5s linear;
+}
+
+.container .bandeau .pop:hover img {
+    transform: scale(3);
+}
+
+
+<div class="popup">
+            <span> &times;</span>
+            <img src="snapiceland.png" alt="">
+            <img src="snapiceland.png" alt="">
+
+</div>
