@@ -1,29 +1,55 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Take a deep breath</title>
-  <link rel="stylesheet" href="style2.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a deep breath</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
     <div id="picdsk"><img src="wallpaper.png" alt="" height="100%" width="100%"></div>
     <div id="picmob"><img src="wallpapermob.png" alt="" height="100%" width="100%"></div>
-  
-        <ul id="menudsk">
-            <li> <a class="link" href="index.html"> ACCEUIL </a></li>
-            <li> <a class="link" href="videos.html">VIDEOS</a></li>
-            <li> <a class="link" href="visit.html">GALERIE</a></li>
-            <li> <a class="link" href="partner.html">PARTNERSHIPS</a></li>
-            <li> <a class="link" href="contact.html">CONTACT</a></li>
-        </ul>
-        <ul id="menumob">
-            <li> <a class="link" href="index.html"> ACCEUIL </a></li>
-            <li> <a class="link" href="videos.html">VIDEOS</a></li>
-            <li> <a class="link" href="visit.html">GALERIE</a></li>
-            <li> <a class="link" href="partner.html">PARTNERSHIPS</a></li>
-            <li> <a class="link" href="contact.html">CONTACT</a></li>
-        </ul>
+
+    <ul id="menudsk">
+        <li> <a class="link" href="index.html"> ACCEUIL </a></li>
+        <li> <a class="link" href="videos.html">VIDEOS</a></li>
+        <li> <a class="link" href="galerie.html">GALERIE</a></li>
+        <li> <a class="link" href="carte.html">CARTE</a></li>
+        <li> <a class="link" href="contact.html">CONTACT</a></li>
+    </ul>
+    <ul id="menumob">
+        <li> <a class="link" href="index.html"> ACCEUIL </a></li>
+        <li> <a class="link" href="videos.html">VIDEOS</a></li>
+        <li> <a class="link" href="galerie.html">GALERIE</a></li>
+        <li> <a class="link" href="carte.html">CARTE</a></li>
+        <li> <a class="link" href="contact.html">CONTACT</a></li>
+    </ul>
+
+    <div class="form">
+
+        <form>
+            <h1>NOUS CONTACTER</h1>
+            <div class="RS">
+                <a class="link" href=""><img src="insta.png" width="30px" height="30px"></a>
+                <a class="link" href="https://www.youtube.com/c/ScenicRelaxationFilms"><img src="yt.png" width="30px"
+                        height="30px"></a>
+                <a class="link" href><img src="twitter.png" width="30px" height="30px"></a>
+            </div>
+            <label for="fname">Nom et prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+            <label for="sujet">Sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Votre demande">
+            <label for="email">Votre e-mail</label>
+            <input id="emailadress" type="email" name="email" placeholder="Votre e-mail">
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Votre message" style="height:100px"></textarea>
+            <button><a class="link" href="https://www.youtube.com/watch?v=6STF0pvTG9E">Envoyer</a></button>
+
+        </form>
+
     </div>
 </body>
+
 </html>

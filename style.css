@@ -91,7 +91,6 @@ h1 {
         list-style: none;
         position: fixed;
         bottom: 1.5em;
-        margin-bottom: 4%;
     }
 
     h1 {
@@ -110,6 +109,8 @@ h1 {
     
     #logomob {
         display: block;
+        position: absolute;
+        right: 83px;
+        bottom: 69px;
     }
-    
 }

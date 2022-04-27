@@ -82,6 +82,7 @@
     border: 4px solid whitesmoke;
     border-radius: 2px;
   }
+
   
   .video {
     position: absolute;
@@ -90,7 +91,7 @@
     width: 60%;
     height: 70vh;
     border: 12px solid whitesmoke;
-    border-radius: 15px;
+    outline: 3px solid lightgrey;
     background-color: whitesmoke;
    
   }
@@ -99,7 +100,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;  
   }
   
   section .navigation {
@@ -135,7 +136,6 @@
     display: flex;
     flex-direction: column;
     border: 10px solid whitesmoke;
-    border-radius: 13px;
     padding-right: 0.5%;
     margin-left: 9%;
     margin-top: 2%;
@@ -152,7 +152,7 @@
     flex-direction: row;
     text-align: center;
     width: 100%;
-    height: 200px;
+    height: 199px;
     padding-top: 2%;  
     background-color: whitesmoke;
     border-top: 3px double lightgray;
@@ -165,17 +165,89 @@
      width: 30%;
      margin-left: 2%;
      margin-left: 2%;
-     margin-right: 2%;
+     margin-right: 3%;
   }
 
-  .bandeau .pop img {
-    transition: 0.3s linear;
+  .bandeau img{
+    cursor: pointer;
   }
 
-  .bandeau .pop img:hover {
-    transform: scale(1.5);
-    transform-origin: top right;
+
+  #fullpage {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 3%;
+    left: 0;
+    width: 82%;
+    height: 81%;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: whitesmoke;
+    border: 10px solid whitesmoke;
+    outline: 3px solid lightgrey;
+    margin-left: 9%;
   }
+
+  .form {
+    position: absolute;
+    left: 10.3%;
+    top: 8%;
+    background-color: whitesmoke;
+    width: 79.8%;
+    height: 73%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border: 5px double lightgray;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 95%;
+    height: 88%;
+  }
+
+form input {
+  width: 60%;
+}
+
+  form button {
+    width: 20%;
+    margin-top: 1%;
+
+  }
+
+form textarea {
+  width: 60%;
+}
+
+form h1 {
+  margin-top: 0%;
+}
+
+.RS {
+  position: absolute;
+  right: 3%;
+}
+
+.map {
+  width: 80%;
+  height: 450px;
+  margin-left: 10%;
+  margin-top: 3%;
+  background-color: whitesmoke;
+
+}
+
+.map iframe {
+  width: 95%;
+  padding: 2%;
+  margin-left: ;
+  margin-top: ;
+}
 
   .title {
     margin-top: auto;
@@ -202,10 +274,12 @@
       bottom: 0;
 
     }
-
+  
     h1 {
       font-size: 18.5px;
     }
+
+
     .bandeau {
       width: 268%;
     }
@@ -214,6 +288,36 @@
       height: 100px;
       width: 20%;
     }
+
+    .map {
+      width: 86%;
+      height: 439px;
+      margin-left: 7%;
+      margin-top: 3%;
+      background-color: whitesmoke;
+    
+    }
+    
+    .map iframe {
+      width: 90%;
+      height: 400px;
+      margin-left: 1.5%;
+      margin-top: 2.5%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      border: 10px solid whitesmoke;
+      padding-right: 0.5%;
+      margin-left: 9%;
+      margin-top: 2%;
+      gap: 10px;
+      width: 80%;
+      height: 80vh;
+      overflow-y: scroll;
+      background-color: whitesmoke;
+  }
 
     #menudsk {
         display: none;
@@ -256,15 +360,48 @@
   
     .video {
         position: absolute;
-        top: 3%;
-        left: 10%;
-        width: 75%;
-        height: 80vh;
+        top: 0%;
+        left: 0%;
+        width: 93.5%;
+        height: 75vh;
         border: 12px solid whitesmoke;
-        border-radius: 15px;
         background-color: whitesmoke;
        
     }
+
+    .form {
+      position: absolute;
+      left: 8%;
+      top: 8%;
+      background-color: whitesmoke;
+      width: 84%;
+      height: 68%;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+      border: 6px double lightgray;
+      margin-left: 1.7%;
+      margin-top: 2%;
+      width: 89%;
+      height: 92%;
+      justify-content: space-between;
+    }
+
+    form input {
+      width: 60%;
+    }
+    
+    form button {
+        width: 25%;
+        margin-top: 1%;
+    
+      }
+    form textarea {
+      width: 250px;
+    }  
   
   }
   
