@@ -136,12 +136,12 @@
     display: flex;
     flex-direction: column;
     border: 10px solid whitesmoke;
-    padding-right: 0.5%;
-    margin-left: 9%;
+    padding-right: 1%;
+    margin-left: 8.6%;
     margin-top: 2%;
     gap: 10px;
     width: 80%;
-    height: 80vh;
+    height: 78.5vh;
     overflow-y: scroll;
     background-color: whitesmoke;
     
@@ -152,24 +152,32 @@
     flex-direction: row;
     text-align: center;
     width: 100%;
-    height: 199px;
+    height: 191px;
     padding-top: 2%;  
     background-color: whitesmoke;
-    border-top: 3px double lightgray;
-    border-bottom: 3px double lightgray;
-    border-right: 3px double lightgray;
-    border-left: 3px double lightgray;
+    border: 5px double lightgray;
     
   }
+
+  .title {
+   margin-top: 25%;
+  }
+
+  .title2 {
+    margin-top: 18%;
+   }
+ 
+
   .bandeau div {
      width: 30%;
      margin-left: 2%;
-     margin-left: 2%;
-     margin-right: 3%;
+     margin-right: 4%;
+     margin-bottom: 0.8%;
   }
 
   .bandeau img{
     cursor: pointer;
+    border: 5px double lightgray;
   }
 
 
@@ -182,21 +190,20 @@
     width: 82%;
     height: 81%;
     background-size: cover;
-    background-repeat: no-repeat no-repeat;
-    background-position: center center;
+    background-position: center;
     background-color: whitesmoke;
     border: 10px solid whitesmoke;
     outline: 3px solid lightgrey;
-    margin-left: 9%;
+    margin-left: 8.5%;
   }
 
   .form {
     position: absolute;
     left: 10.3%;
-    top: 8%;
+    top: 10%;
     background-color: whitesmoke;
     width: 79.8%;
-    height: 73%;
+    height: 70%;
   }
 
   form {
@@ -230,7 +237,18 @@ form h1 {
 
 .RS {
   position: absolute;
-  right: 3%;
+  right: 8%;
+}
+
+.RS img {
+  height: 40px;
+  width: 40px;
+}
+
+#mnt {
+  position: absolute;
+  right: 6%;
+  top: 25.1%;
 }
 
 .map {
@@ -245,16 +263,9 @@ form h1 {
 .map iframe {
   width: 95%;
   padding: 2%;
-  margin-left: ;
-  margin-top: ;
-}
+ }
 
-  .title {
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-  @media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
 
     #picdsk {
       display: none;
@@ -281,19 +292,19 @@ form h1 {
 
 
     .bandeau {
-      width: 268%;
+      width: 190%;
     }
 
     .bandeau div {
       height: 100px;
-      width: 20%;
+      width: 600px;
     }
 
     .map {
       width: 86%;
       height: 439px;
       margin-left: 7%;
-      margin-top: 3%;
+      margin-top: 14%;
       background-color: whitesmoke;
     
     }
@@ -310,8 +321,8 @@ form h1 {
       flex-direction: column;
       border: 10px solid whitesmoke;
       padding-right: 0.5%;
-      margin-left: 9%;
-      margin-top: 2%;
+      margin-left: 7%;
+      margin-top: 8%;
       gap: 10px;
       width: 80%;
       height: 80vh;
@@ -375,7 +386,7 @@ form h1 {
       top: 8%;
       background-color: whitesmoke;
       width: 84%;
-      height: 68%;
+      height: 69%;
     }
   
     form {
@@ -402,10 +413,46 @@ form h1 {
     form textarea {
       width: 250px;
     }  
+
+
+    #fullpage {
+      display: none;
+      position: absolute;
+      z-index: 9999;
+      top: 29.5%;
+      left: 0;
+      width: 93.5%;
+      height: 31%;
+      background-size: cover;
+      background-repeat: no-repeat no-repeat;
+      background-position: center center;
+      background-color: whitesmoke;
+      border: 10px solid whitesmoke;
+      outline: 3px solid lightgrey;
+      margin-left: 0.6%;
+    }
+
+
+    .RS {
+      position: absolute;
+      right: 6%;
+    } 
+
+    .RS img {
+      height: 25px;
+      width: 25px;
+    }
+
+    #mnt {
+      display: none;
+    }
+     
   
   }
-  
-  @media screen and (min-width: 420px) and (max-width: 850px) {
+
+
+
+@media screen and (min-width: 420px) and (max-width: 850px) {
   
     #logodsk {
         display: none;
