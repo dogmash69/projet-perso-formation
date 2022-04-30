@@ -34,7 +34,7 @@ h1 {
 
 #logodsk {
     position: absolute;
-    bottom: 20%;
+    bottom: 17%;
     right: 35%;
 }
 
@@ -52,12 +52,12 @@ h1 {
     padding-bottom: 1%;
     padding-left: 0;
     height: 1.1em;
-    width: 100%;
+    width: 99.1%;
     list-style: none;
     position: fixed;
     bottom: -1em;
-    margin-left: 0.1%;
     margin-bottom: 1.6%;
+    border: 5px double lightgrey;
     
 }
 
@@ -85,12 +85,14 @@ h1 {
         padding-top: 1%;
         padding-bottom: 1%;
         padding-left: 1%;
-        margin-left: 5%;
+        margin-left: 3%;
         height: 1.5em;
         width: 90%;
         list-style: none;
         position: fixed;
         bottom: 1.5em;
+        margin-bottom: -2%;
+        border: 5px double lightgrey;
     }
 
     h1 {
@@ -110,7 +112,26 @@ h1 {
     #logomob {
         display: block;
         position: absolute;
-        right: 83px;
-        bottom: 69px;
+        right: 22%;
+        bottom: 13%;
     }
+}
+
+@media screen and (min-width: 650px) and (max-width: 900px) {
+
+    h1 {
+        font-size: 55px;
+    }
+
+    #logodsk {
+        display: none;
+    }
+
+    #logomob {
+        display: block;
+        position: absolute;
+        right: 37%;
+        bottom: 17%;
+    }
+
 }
