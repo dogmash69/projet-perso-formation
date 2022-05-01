@@ -144,7 +144,7 @@
     height: 78.5vh;
     overflow-y: scroll;
     background-color: whitesmoke;
-    outline: 6px solid lightgray;
+    outline: 5px solid lightgray;
 
   }
   
@@ -203,7 +203,7 @@
     left: 10%;
     top: 8%;
     background-color: whitesmoke;
-    outline: 6px solid lightgrey;
+    outline: 5px solid lightgrey;
     width: 79.8%;
     height: 74%;
   }
@@ -260,7 +260,7 @@ form h1 {
   margin-left: 10%;
   margin-top: 3%;
   background-color: whitesmoke;
-  outline: 6px solid lightgrey;
+  outline: 5px solid lightgrey;
 
 }
 
@@ -508,19 +508,23 @@ form h1 {
       flex-direction: column;
       border: 10px solid whitesmoke;
       padding-right: 1%;
-      margin-left: 8.6%;
-      margin-top: 2%;
+      margin-left: 5.2%;
+      margin-top: 4%;
       gap: 10px;
-      width: 80%;
-      height: 74.5vh;
+      width: 86%;
+      height: 65.5vh;
       overflow-y: scroll;
       background-color: whitesmoke;
       outline: 6px solid lightgray;
   }
 
+  .bandeau {
+    width: 99%;
+  }
+
     .bandeau div {
       height: 91px;
-      width: 25%;
+      width: 30%;
     }
 
     h1 {
@@ -528,9 +532,9 @@ form h1 {
     }
 
     .map {
-      width: 86%;
+      width: 90%;
       height: 75vh;
-      margin-left: 7%;
+      margin-left: 5.5%;
       margin-top: 4%;
       background-color: whitesmoke;
     
@@ -539,7 +543,7 @@ form h1 {
     .map iframe {
       width: 90%;
       height: 80%;
-      margin-left: 3.5%;
+      margin-left: 4%;
       margin-top: 4%;
     }
 
@@ -665,13 +669,17 @@ form h1 {
     border: 10px solid whitesmoke;
     padding-right: 1%;
     margin-left: 8.6%;
-    margin-top: 2%;
+    margin-top: 3.5%;
     gap: 10px;
     width: 80%;
-    height: 74.5vh;
+    height: 64.5vh;
     overflow-y: scroll;
     background-color: whitesmoke;
     outline: 6px solid lightgray;
+}
+
+.bandeau {
+  width: 99%;
 }
 
   .bandeau div {
