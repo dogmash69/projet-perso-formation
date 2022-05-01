@@ -3,6 +3,7 @@ function videoUrl(projetperso){
             document.getElementById("slider").src = projetperso;
         }
 
+// fullscreen galerie        
     const imgs = document.querySelectorAll('.bandeau img');
     const fullPage = document.querySelector('#fullpage');
         

@@ -120,7 +120,7 @@
     margin-bottom: -69%;
     margin-left: 1.8%;
     opacity: 0.4;
-    transition: 2s, ease-in-out;
+    
   }
 
   section .navigation li:hover {
@@ -200,8 +200,8 @@
 
   .form {
     position: absolute;
-    left: 10.3%;
-    top: 10%;
+    left: 10%;
+    top: 8%;
     background-color: whitesmoke;
     outline: 6px solid lightgrey;
     width: 79.8%;
@@ -299,6 +299,7 @@ form h1 {
 
     .bandeau {
       width: 190%;
+      padding-top: 5%;
     }
 
     .bandeau div {
@@ -472,6 +473,28 @@ form h1 {
         display: none;
     }
 
+    #menudsk {
+      display: none;
+    }
+
+    #menumob {
+      font-size: 13px;
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;    
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 1%;
+      margin-left: 4%;
+      height: 1.5em;
+      width: 90%;
+      list-style: none;
+      position: fixed;
+      bottom: -3.5%;
+      border: 5px double lightgrey;
+  }
+
     #thumb {
       width: 60%;
       margin-bottom: 12%;
@@ -526,7 +549,7 @@ form h1 {
       top: 0%;
       left: 0.45%;
       width: 95%;
-      margin-left: 0.7%;
+      margin-left: 0.3%;
       height: 70vh;
       border: 12px solid whitesmoke;
       background-color: whitesmoke;
@@ -549,7 +572,7 @@ form h1 {
 
     .form {
       position: absolute;
-      left: 5%;
+      left: 5.2%;
       top: 6%;
       background-color: whitesmoke;
       width: 90%;
@@ -561,7 +584,7 @@ form h1 {
       flex-direction: column;
       padding: 2%;
       border: 6px double lightgray;
-      margin-left: 1.7%;
+      margin-left: 2.5%;
       margin-top: 2%;
       width: 89%;
       height: 79%;
@@ -605,6 +628,30 @@ form h1 {
       display: none;
   }
 
+    #menudsk {
+      display: none;
+    }
+
+    #menumob {
+      font-size: 13px;
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;    
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 1%;
+      margin-left: 4%;
+      height: 1.5em;
+      width: 90%;
+      list-style: none;
+      position: fixed;
+      bottom: 1.5em;
+      margin-bottom: -2.3%;
+      border: 5px double lightgrey;
+  }
+
+
   #thumb {
     width: 60%;
     margin-left: 6%;
@@ -638,11 +685,11 @@ form h1 {
 
   .map {
     width: 86%;
-    height: 75vh;
+    height: 79vh;
     margin-left: 7%;
-    margin-top: 4%;
+    margin-top: 2%;
     background-color: whitesmoke;
-  
+
   }
 
   .map iframe {
@@ -655,10 +702,10 @@ form h1 {
 
   .video {
     position: absolute;
-    top: 0%;
+    top: 1%;
     left: 0.45%;
-    width: 95%;
-    margin-left: 0.7%;
+    width: 96%;
+    margin-left: 0.1%;
     height: 70vh;
     border: 12px solid whitesmoke;
     background-color: whitesmoke;
@@ -666,16 +713,16 @@ form h1 {
 }
 
 
-  section .navigation {
-      width: 70%;
-      position: absolute;
-      bottom: 30%;
-      left: 47%;
-      z-index: 100;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+section .navigation {
+  width: 55%;
+  position: absolute;
+  bottom: 21%;
+  left: 47%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
   section .navigation li {
     list-style: none;
@@ -700,8 +747,8 @@ form h1 {
     flex-direction: column;
     padding: 2%;
     border: 6px double lightgray;
-    margin-left: 1.7%;
-    margin-top: 2%;
+    margin-left: 2.6%;
+    margin-top: 1.5%;
     width: 89%;
     height: 79%;
     justify-content: space-between;
