@@ -106,7 +106,7 @@
   section .navigation {
     position: absolute;
     bottom: 55px;
-    left: 46%;
+    left: 47%;
     transform: translateX(-50%);
     z-index: 100;
     display: flex;
@@ -173,7 +173,7 @@
      width: 30%;
      margin-left: 2%;
      margin-right: 4%;
-     margin-bottom: 0.8%;
+     margin-bottom: 0.4%;
   }
 
   .bandeau img{
@@ -306,6 +306,7 @@ form h1 {
       height: 100px;
       width: 600px;
     }
+
 
     #thumb {
       width: 80%;
@@ -451,6 +452,7 @@ form h1 {
     .RS {
       position: absolute;
       right: 6%;
+      top: 4%;
     } 
 
     .RS img {
@@ -686,10 +688,21 @@ form h1 {
     height: 91px;
     width: 25%;
   }
+  
 
   h1 {
     font-size: 17.5px;
+    margin-left: 0%;
   }
+
+  .title {
+    margin-top: 18%;
+   }
+ 
+   .title2 {
+     margin-top: 10%;
+    }
+  
 
   .map {
     width: 86%;

@@ -13,3 +13,17 @@ function videoUrl(projetperso){
             fullPage.style.display = 'block';
           });
         });
+
+// popup contact
+let ide = document.getElementById('fname');
+let mail = document.getElementById('emailadress');
+
+const button = document.querySelector('.button');
+button.addEventListener('click', function(event){
+  event.preventDefault();
+  alert("Merci pour votre message" + " " + ide.value + ", nous vous contacterons dans les meilleurs délais à l'adresse" + " " + emailadress.value + ", bisous.");
+  window.open ("https://www.youtube.com/watch?v=09m0B8RRiEE", '_blank');
+});
+
+
+// popup du cochon
