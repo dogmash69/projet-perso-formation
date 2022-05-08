@@ -26,4 +26,29 @@ button.addEventListener('click', function(event){
 });
 
 
-// popup du cochon
+// popup trolololo
+
+const pop = document.querySelector('#twi');
+const rey = document.querySelector('#rey');
+
+pop.addEventListener('mouseover', function (){
+  rey.style.opacity = "1";
+  rey.style.transition = "1s";
+});
+
+pop.addEventListener('mouseleave', function (){
+  rey.style.opacity = "0";
+});
+
+const popb = document.querySelector('#jem');
+const marion = document.querySelector('#marion');
+
+popb.addEventListener('mouseover', function (){
+  marion.style.opacity = "1";
+  marion.style.transition = "1s";
+});
+
+popb.addEventListener('mouseleave', function (){
+  marion.style.opacity = "0";
+});
+

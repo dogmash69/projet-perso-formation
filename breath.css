@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+
+#insp {
+    margin-left: 35%;
+    margin-top: 10%;
+    height: 250px;
+    width: 250px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px  whitesmoke;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#text {
+    background-color: whitesmoke;
+    position: absolute;
+    right: 38%;
+    top: 45%;
+}
+
+#insp.growth {
+    animation: growth 3.5s linear forwards;
+}
+
+#insp.shrink {
+    animation: shrink 3.5s linear forwards;
+}
+
+@keyframes growth{
+    from{
+        transform: scale(1)
+    }to{
+        transform: scale(1.7);
+    }
+}
+
+@keyframes shrink{
+    from{
+        transform: scale(1.7)
+    }to{
+        transform: scale(1);
+    }
+}

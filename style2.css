@@ -124,7 +124,10 @@
   }
 
   section .navigation li:hover {
-      opacity: 0.8;
+      opacity: 1;
+      transform: scale(1.4);
+      transition: 0.1s;
+      z-index: 100;
   }
   
   .link {
@@ -248,28 +251,76 @@ form h1 {
   width: 40px;
 }
 
+#rey {
+  height: 200px; 
+  position: absolute;
+  right: -17%;
+  top: 0%;
+  opacity: 0;
+  
+}
+
+#marion {
+  height: 200px; 
+  position: absolute;
+  right: -15%;
+  bottom: -19%;
+  opacity: 0;
+  z-index: -1;
+  
+}
+
+
 #mnt {
   position: absolute;
   right: 3%;
   top: 25.1%;
 }
 
-.map {
-  width: 80%;
-  height: 450px;
-  margin-left: 10%;
-  margin-top: 3%;
-  background-color: whitesmoke;
-  outline: 5px solid lightgrey;
-
+ #insp {
+  margin-left: 39%;
+  margin-top: 10%;
+  height: 250px;
+  width: 250px;
+  background-color: lightyellow;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px  lightyellow;
+  text-align: center;
+  opacity: 0.92;
+  
 }
 
-.map iframe {
-  width: 95%;
-  margin-left: 2%;
-  margin-top: 2%;
-  border: 5px double lightgrey;
- }
+#text {
+  background-color: lightyellow;
+  position: absolute;
+  right: 37%;
+  top: 45%;
+}
+
+#insp.growth {
+  animation: growth 3.5s linear forwards;
+}
+
+#insp.shrink {
+  animation: shrink 3.5s linear forwards;
+}
+
+@keyframes growth{
+  from{
+      transform: scale(1)
+  }to{
+      transform: scale(1.7);
+  }
+}
+
+@keyframes shrink{
+  from{
+      transform: scale(1.7)
+  }to{
+      transform: scale(1);
+  }
+}
+
 
 @media screen and (max-width: 419px) {
 
@@ -313,22 +364,6 @@ form h1 {
       margin-left: 6%;
       border: 4px solid whitesmoke;
       border-radius: 2px;
-    }
-
-    .map {
-      width: 86%;
-      height: 75vh;
-      margin-left: 7%;
-      margin-top: 14%;
-      background-color: whitesmoke;
-    
-    }
-    
-    .map iframe {
-      width: 90%;
-      height: 93%;
-      margin-left: 3.5%;
-      margin-top: 4.5%;
     }
 
     .container {
@@ -460,10 +495,40 @@ form h1 {
       width: 25px;
     }
 
+
     #mnt {
       display: none;
     }
      
+
+    
+    #rey {
+    display: none;
+  
+    }
+
+    #marion {
+      display: none;
+    }
+
+    #insp {
+      margin-left: 31%;
+      margin-top: 59%;
+      height: 150px;
+      width: 150px;
+      background-color: lightyellow;
+      border-radius: 50%;
+      box-shadow: 0px 0px 15px 15px  lightyellow;
+      text-align: center;
+      
+    }
+    
+    #text {
+      background-color: lightyellow;
+      position: absolute;
+      right: 31%;
+      top: 42%;
+    }
   
   }
 
@@ -532,23 +597,6 @@ form h1 {
     h1 {
       font-size: 17.5px;
     }
-
-    .map {
-      width: 90%;
-      height: 75vh;
-      margin-left: 5.5%;
-      margin-top: 4%;
-      background-color: whitesmoke;
-    
-    }
-
-    .map iframe {
-      width: 90%;
-      height: 80%;
-      margin-left: 4%;
-      margin-top: 4%;
-    }
-
 
     .video {
       position: absolute;
@@ -626,6 +674,35 @@ form h1 {
       top: 32%;
       height: 50%;
     }
+
+    #rey {
+      display: none;
+    
+      }
+
+    #marion {
+      display: none;
+      }
+
+      
+    #insp {
+      margin-left: 38%;
+      margin-top: 14%;
+      height: 150px;
+      width: 150px;
+      background-color: lightyellow;
+      border-radius: 50%;
+      box-shadow: 0px 0px 15px 15px  lightyellow;
+      text-align: center;
+      
+    }
+    
+    #text {
+      background-color: lightyellow;
+      position: absolute;
+      right: 31%;
+      top: 42%;
+    }
   }
 
   @media screen and (min-width: 844px) and (max-width: 900px) {
@@ -702,26 +779,8 @@ form h1 {
    .title2 {
      margin-top: 10%;
     }
-  
 
-  .map {
-    width: 86%;
-    height: 79vh;
-    margin-left: 7%;
-    margin-top: 2%;
-    background-color: whitesmoke;
-
-  }
-
-  .map iframe {
-    width: 90%;
-    height: 80%;
-    margin-left: 3.5%;
-    margin-top: 4%;
-  }
-
-
-  .video {
+    .video {
     position: absolute;
     top: 1%;
     left: 0.45%;
@@ -804,5 +863,33 @@ section .navigation {
     top: 32%;
     height: 50%;
   }
+
+  #rey {
+    display: none;
+  
+    }
+
+  #marion {
+    display: none;
+    }
+
+    
+    #insp {
+      margin-left: 41%;
+      margin-top: 12%;
+      height: 150px;
+      width: 150px;
+      background-color: lightyellow;
+      border-radius: 50%;
+      box-shadow: 0px 0px 15px 15px  lightyellow;
+      text-align: center;
+      
+    }
+    
+    #text {
+      background-color: lightyellow;
+      position: absolute;
+      right: 31%;
+      top: 42%;
+    }
 }
-  }
