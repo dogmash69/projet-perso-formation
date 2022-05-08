@@ -279,30 +279,30 @@ form h1 {
 
  #insp {
   margin-left: 39%;
-  margin-top: 10%;
+  margin-top: 10.5%;
   height: 250px;
   width: 250px;
   background-color: lightyellow;
   border-radius: 50%;
-  box-shadow: 0px 0px 15px 15px  lightyellow;
+  box-shadow: 0px 0px 30px 20px lightyellow;
   text-align: center;
   opacity: 0.92;
   
 }
 
 #text {
+  display: inline-block;
+  margin-top: 45%;
   background-color: lightyellow;
-  position: absolute;
-  right: 37%;
-  top: 45%;
+
 }
 
 #insp.growth {
-  animation: growth 3.5s linear forwards;
+  animation: growth 4s ease-in-out forwards;
 }
 
 #insp.shrink {
-  animation: shrink 3.5s linear forwards;
+  animation: shrink 6s ease-in-out forwards;
 }
 
 @keyframes growth{
@@ -524,10 +524,10 @@ form h1 {
     }
     
     #text {
+      display: inline-block;
+      margin-top: 45%;
       background-color: lightyellow;
-      position: absolute;
-      right: 31%;
-      top: 42%;
+    
     }
   
   }
@@ -698,10 +698,10 @@ form h1 {
     }
     
     #text {
+      display: inline-block;
+      margin-top: 45%;
       background-color: lightyellow;
-      position: absolute;
-      right: 31%;
-      top: 42%;
+    
     }
   }
 
@@ -887,9 +887,9 @@ section .navigation {
     }
     
     #text {
+      display: inline-block;
+      margin-top: 45%;
       background-color: lightyellow;
-      position: absolute;
-      right: 31%;
-      top: 42%;
+    
     }
 }
